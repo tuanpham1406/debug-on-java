@@ -33,6 +33,9 @@ Chương trình cần hỏi giá trị các hằng số trước khi tính toán
 Scanner scanner = new Scanner(System.in);
 ```
 
+Lưu ý: _sử dụng thư viện `Scanner` trong gói `java.util`, có nghĩa là cần `import` thư
+viện `java.util.Scanner` để dòng lệnh trên có thể hoạt động._
+
 Lần lượt chỉ dẫn người dùng và đọc các giá trị mà người dùng cung cấp vào các biến:
 
 ```java
