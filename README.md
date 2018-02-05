@@ -36,7 +36,8 @@ Scanner scanner = new Scanner(System.in);
 Lưu ý: _sử dụng thư viện `Scanner` trong gói `java.util`, có nghĩa là cần `import` thư
 viện `java.util.Scanner` để dòng lệnh trên có thể hoạt động._
 
-Lần lượt chỉ dẫn người dùng và đọc các giá trị mà người dùng cung cấp vào các biến:
+Lần lượt chỉ dẫn người dùng và đọc các giá trị mà người dùng cung cấp vào các biến, do 
+hằng số của hàm bậc nhất có thể là số nguyên hoặc số thực nên ta sử dụng hàm `nextDouble`:
 
 ```java
 System.out.print("\ta: ");
