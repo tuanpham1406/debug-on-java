@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FirstDegreeEquation {
     public static void main(String[] args) {
         System.out.println("First Degree Equation Computer");
-        System.out.println("Given a equation as 'a*x + b = c', please enter constants:");
+        System.out.println("Given a equation as 'a*x + b = 0', please enter constants:");
 
         Scanner scanner = new Scanner(System.in);
 
@@ -13,16 +13,15 @@ public class FirstDegreeEquation {
         System.out.print("\tb: ");
         double b = scanner.nextDouble();
 
-        System.out.print("\tc: ");
-        double c = scanner.nextDouble();
-
         if (a != 0) {
-            double answer = (c - b) / a;
+            double answer = -b / a;
             System.out.printf("Equation pass with x = %f!\n", answer);
-        } else if (b == c) {
-            System.out.print("Equation pass with any 'x'!");
         } else {
-            System.out.print("Equation has no root!");
+            if (b == 0) {
+                System.out.print("Equation pass with any 'x'!");
+            } else {
+                System.out.print("Equation has no root!");
+            }
         }
 
         System.out.println("Thanks you! Goodbye!");
