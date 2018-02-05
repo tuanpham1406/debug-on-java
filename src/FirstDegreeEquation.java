@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class FirstDegreeEquation {
     public static void main(String[] args) {
-
         System.out.println("First Degree Equation Computer");
         System.out.println("Given a equation as 'a*x + b = c', please enter constants:");
 
