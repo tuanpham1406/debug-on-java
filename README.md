@@ -81,3 +81,6 @@ if (a != 0) {
 ```
 
 Thực thi chương trình và quan sát kết quả.
+<br />
+
+Mã nguồn Fist Degree Equation Programming in Java được sử dụng để thực hành tại [CodeGym](https://codegym.vn)
